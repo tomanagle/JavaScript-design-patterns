@@ -8,7 +8,7 @@
 - [x] Factory
 - [x] Singleton
 
-https://github.com/tomanagle/JavaScript-design-patterns/tree/master/Creational
+[Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/behavioral)
 
 ## Structural
 
@@ -16,7 +16,11 @@ https://github.com/tomanagle/JavaScript-design-patterns/tree/master/Creational
 - [ ] Facade
 - [ ] Flyweight
 
+[Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/structural)
+
 ## Behavioral
 
 - [ ] Observer
 - [ ] Mediator
+
+[Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/behavioral)
