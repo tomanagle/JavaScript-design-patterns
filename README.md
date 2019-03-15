@@ -12,7 +12,7 @@
 
 ## Structural
 
-- [ ] Decorator
+- [x] Decorator
 - [ ] Facade
 - [ ] Flyweight
 
