@@ -20,7 +20,32 @@
 
 ## Behavioral
 
-- [ ] Observer
+- [x] Observer
 - [ ] Mediator
 
 [Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/behavioral)
+
+```
+|-- behavioral
+|   |-- mediator.js
+|   |-- observer.js
+|   |-- README.md
+|   |-- __TEST__
+|       |-- observer.test.js
+|-- creational
+|   |-- class.js
+|   |-- constructor.js
+|   |-- factory.js
+|   |-- module.js
+|   |-- README.md
+|   |-- singleton.js
+|   |-- __TEST__
+|       |-- class.test.js
+|       |-- constructor.test.js
+|       |-- factory.test.js
+|-- structural
+    |-- decorator.js
+    |-- facade.js
+    |-- flyweight.js
+    |-- README.md
+```
