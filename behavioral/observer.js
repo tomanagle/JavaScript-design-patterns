@@ -1,9 +1,9 @@
-class Observerable {
+export class Observerable {
   constructor() {
     this.subscribers = [];
   }
 
-  sunscribe(fn) {
+  subscribe(fn) {
     this.subscribers = [...this.subscribers, fn];
   }
   unsubscribe(fn) {
@@ -23,7 +23,7 @@ const fn = data => {
   console.log(`Received data`, { data });
 };
 
-observer.sunscribe(fn);
+observer.subscribe(fn);
 
 // Broadcast a message to the subscribers
 observer.broadcast('A broadcasted message');
