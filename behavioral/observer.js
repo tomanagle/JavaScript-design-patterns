@@ -1,26 +1,29 @@
-class Observable {
+class Observerable {
   constructor() {
     this.subscribers = [];
-
-    this.broadcast = cb => {
-      // Send the message to all the subscibers
-      for (let i = 0; i < this.subscribers.length; i += 1) {}
-    };
   }
 
-  subscribe(id) {
-    // Add the id to the subscribers list
-    return (this.subscribers = [...this.subscribers, id]);
+  sunscribe(fn) {
+    this.subscribers = [...this.subscribers, fn];
+  }
+  unsubscribe(fn) {
+    this.subscribers = [...this.subscribers.filter(item => item !== fn)];
   }
 
-  unsubsccribe(id) {
-    // Remove the id from th subscribers list
-    return (this.subscribers = [
-      ...this.subscribers.filter(item => item !== id)
-    ]);
-  }
-
-  notify(cb) {
-    this.broadcast(cb);
+  broadcast(data) {
+    for (let i = 0; i < this.subscribers.length; i += 1) {
+      this.subscribers[i](data);
+    }
   }
 }
+
+const observer = new Observerable();
+
+const fn = data => {
+  console.log(`Received data`, { data });
+};
+
+observer.sunscribe(fn);
+
+// Broadcast a message to the subscribers
+observer.broadcast('A broadcasted message');
