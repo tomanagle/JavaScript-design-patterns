@@ -1,6 +1,11 @@
 class Observable {
   constructor() {
     this.subscribers = [];
+
+    this.broadcast = cb => {
+      // Send the message to all the subscibers
+      for (let i = 0; i < this.subscribers.length; i += 1) {}
+    };
   }
 
   subscribe(id) {
@@ -15,14 +20,7 @@ class Observable {
     ]);
   }
 
-  broadcast() {
-    // Send the message to all the subscibers
-    for (let i = 0; i < this.subscribers.length; i += 1) {
-      console.log(`Broadcast to ${this.subscribers[i]}`);
-    }
+  notify(cb) {
+    this.broadcast(cb);
   }
 }
-
-const observer = new Observable();
-
-console.log({ observer });
