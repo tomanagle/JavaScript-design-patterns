@@ -1,5 +1,11 @@
 # JavaScript design patterns
 
+A collection of working design pattern examples and links to useful resporces where you can learn more about the design pattern and how to use it in JavaScript. 
+
+You will find explanations for each pattern in this Medium article: https://medium.com/@tomanagle/javascript-design-patterns-c037eb597579
+
+If you would like further explanation of a pattern, think an example can be improved or spot something is just wrong, please submit a pull request.
+
 ## Creational
 
 - [x] Constructor
