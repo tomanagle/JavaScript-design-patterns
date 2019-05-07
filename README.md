@@ -1,5 +1,5 @@
-https://img.shields.io/github/license/tomanagle/JavaScript-design-patterns.svg
 # JavaScript design patterns
+[![GitHub license](https://img.shields.io/github/license/tomanagle/JavaScript-design-patterns.svg)](https://github.com/tomanagle/JavaScript-design-patterns/blob/master/LICENCE)
 
 A collection of working design pattern examples and links to useful resporces where you can learn more about the design pattern and how to use it in JavaScript. 
 
