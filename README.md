@@ -9,26 +9,27 @@ If you would like further explanation of a pattern, think an example can be impr
 
 ## Creational
 
-- [x] Constructor
-- [x] Class
-- [x] Module
-- [x] Factory
-- [x] Singleton
+- [x] Constructor pattern
+- [x] Class pattern
+- [x] Module pattern
+- [x] Factory pattern
+- [x] Singleton pattern
 
 [Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/behavioral)
 
 ## Structural
 
-- [x] Decorator
-- [ ] Facade
-- [ ] Flyweight
+- [x] Decorator pattern
+- [ ] Facade pattern
+- [ ] Flyweight pattern
 
 [Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/structural)
 
 ## Behavioral
 
-- [x] Observer
-- [ ] Mediator
+- [x] Observer pattern
+- [x] Mediator pattern
+- [ ] Command pattern
 
 [Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/behavioral)
 
