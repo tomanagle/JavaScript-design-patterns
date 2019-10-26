@@ -1,4 +1,4 @@
-class Mediator {
+export class Mediator {
   constructor() {
     this.colleagues = [];
   }
@@ -9,20 +9,18 @@ class Mediator {
   }
 
   sendMessage(message, from) {
-    console.log(`Chatroom is broadcasting ${message} from ${from}`);
     for (let i = 0; i < this.colleagues.length; i += 1) {
       this.colleagues[i].receiveMessage(message, from);
     }
   }
 }
 
-class Colleague {
+export class Colleague {
   constructor(name) {
     this.name = name;
     this.chatroom = null;
   }
   sendMessage(message) {
-    console.log(`Sending message "${message}" from ${this.name}`);
     this.chatroom.sendMessage(message, this.name);
   }
 
