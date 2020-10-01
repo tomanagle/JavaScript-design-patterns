@@ -20,7 +20,7 @@ If you would like further explanation of a pattern, think an example can be impr
 ## Structural
 
 - [x] Decorator pattern
-- [ ] Facade pattern
+- [x] Facade pattern
 - [ ] Flyweight pattern
 
 [Code examples](https://github.com/tomanagle/JavaScript-design-patterns/tree/master/structural)
